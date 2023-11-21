@@ -16,6 +16,9 @@
 - `GRANT ALL PRIVILEGES ON DATABASE "student" TO {username};`
 - `\c student`
 - `brew services stop postgresql`
+
+## Running the packaged .jar application
+- `java -jar target/students-0.0.1-SNAPSHOT.jar --server.port=8080`
 ### Reference Documentation
 For further reference, please consider the following sections:
 
